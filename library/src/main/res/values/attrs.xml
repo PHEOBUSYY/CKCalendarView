@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CKCalendarPagerItemView">
+        <attr name="shrinkable" format="boolean"/>
+        <attr name="desiredMonthTitleHeight" format="dimension"/>
+        <attr name="desiredDayOfWeekHeight" format="dimension"/>
+        <attr name="desiredDayHeight" format="dimension"/>
+        <attr name="desiredCellWidth" format="dimension"/>
+        <attr name="showDivider" format="boolean"/>
+        <attr name="dividerStroke" format="dimension"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="monthTitleTextSize" format="dimension"/>
+        <attr name="weekTitleTextSize" format="dimension"/>
+        <attr name="monthTitleTextColor" format="color"/>
+        <attr name="weekTitleTextColor" format="color"/>
+        <attr name="weekTitleFormat" format="string"/>
+        <attr name="dayTextSize" format="dimension"/>
+        <attr name="selectDayBg" format="color"/>
+        <attr name="selectDayStoke" format="dimension"/>
+        <attr name="todayBg" format="color"/>
+        <attr name="todayTextColor" format="color"/>
+        <attr name="selectDayTextColor" format="color"/>
+        <attr name="selectDayStokeColor" format="color"/>
+        <attr name="invalidDayTextColor" format="color"/>
+        <attr name="defaultDayTextColor" format="color"/>
+        <attr name="headerBg" format="color"/>
+        <attr name="titleFormatter" format="string"/>
+        <attr name="dayFormatter" format="string"/>
+        <attr name="selectedBgShape" format="enum">
+            <enum name="RECT" value="0x00"/>
+            <enum name="CIRCULAR" value="0x01"/>
+        </attr>
+        <attr name="showWeekTitleWhenShrink" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CKCalendarView">
+        <attr name="minDate" format="string|reference"/>
+        <attr name="maxDate" format="string|reference"/>
+        <attr name="shrink" format="boolean"/>
+    </declare-styleable>
+
+</resources>

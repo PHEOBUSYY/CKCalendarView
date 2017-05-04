@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CRMMonthView" parent="CKMonthView">
+        <item name="selectedBgShape">CIRCULAR</item>
+        <item name="selectDayBg">#FF0000</item>
+        <item name="showDivider">false</item>
+        <item name="showWeekTitleWhenShrink">true</item>
+    </style>
+    <style name="CKMonthView">
+        <item name="shrinkable">true</item>
+        <item name="desiredMonthTitleHeight">40dp</item>
+        <item name="desiredDayOfWeekHeight">36dp</item>
+        <item name="desiredDayHeight">32dp</item>
+        <item name="desiredCellWidth">46dp</item>
+        <item name="showDivider">true</item>
+        <item name="dividerStroke">1px</item>
+        <item name="dividerColor">#E1E3E5</item>
+        <item name="monthTitleTextSize">14sp</item>
+        <item name="weekTitleTextSize">12sp</item>
+        <item name="monthTitleTextColor">@android:color/black</item>
+        <item name="weekTitleTextColor">#939D8E</item>
+        <item name="dayTextSize">12sp</item>
+        <item name="todayBg">?attr/colorPrimary</item>
+        <item name="selectDayStoke">1.5dp</item>
+        <item name="selectDayBg">?attr/colorPrimary</item>
+        <item name="todayTextColor">@android:color/black</item>
+        <item name="selectDayStokeColor">?attr/colorPrimary</item>
+        <item name="invalidDayTextColor">@android:color/darker_gray</item>
+        <item name="defaultDayTextColor">@android:color/black</item>
+        <item name="selectDayTextColor">@android:color/white</item>
+        <item name="headerBg">#F7F7F7</item>
+        <item name="selectedBgShape">RECT</item>
+        <item name="showWeekTitleWhenShrink">true</item>
+
+    </style>
+
+
+</resources>
